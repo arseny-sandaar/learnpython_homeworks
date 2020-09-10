@@ -12,7 +12,7 @@ def user_occupation(age):
     elif age <= 23:
         return "Вы скорее должны учиться в ВУЗе"
     else:
-        return "Вы скорее должны уже работать"
+        return "Вы скорее должны уже работать!"
 
 user_age = int(input("Hello, there! How old are you? "))
 what_should_do_user = user_occupation(user_age)
