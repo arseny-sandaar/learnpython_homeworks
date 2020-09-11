@@ -9,11 +9,20 @@ def ask_user():
     user_input = input("Как дела? ")
     return user_input
 
-while True:
-    user_say = ask_user()
-    if user_say == "Хорошо":
-        break
-    else:
-        ask_user()
+# первый код
+# while True:
+#     if ask_user() == "Хорошо":
+#         break
+    # else:
+    #     ask_user()
 
+# второй код
+# while not ask_user() == 'Хорошо':
+#     ask_user()
 # пока код плохо работает. Мне почему то надо два раза писать "Хорошо", чтобы программа остановилась.
+
+
+# Исправил. Вот вроде работает.
+while True:
+    if ask_user() == "Хорошо":
+        break

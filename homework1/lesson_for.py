@@ -43,4 +43,3 @@ for school_class in list_of_scores:
     #sum_of_scores += sum(school_class['scores'])/len(school_class['scores'])
 
 print(f'Средний балл по всей школе {sum_of_scores/len(list_of_scores)}.')
-
