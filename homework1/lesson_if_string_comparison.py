@@ -8,7 +8,7 @@
 
 def get_two_strings(string1,string2):
     
-    if bool(not string1) and bool(not string2):
+    if not isinstance(string1,str) and not isinstance(string2,str):
         return 0
     else:
         if string1 == string2:
